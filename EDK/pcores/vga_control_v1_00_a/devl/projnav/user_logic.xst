@@ -1,0 +1,6 @@
+set -tmpdir "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/xst/projnav.tmp"
+set -xsthdpdir "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/xst"
+elaborate
+-lso C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/user_logic.lso
+-ifn user_logic.prj
+-ifmt mixed

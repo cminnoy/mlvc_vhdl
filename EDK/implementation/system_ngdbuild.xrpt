@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt" product="ISE" version="11.5">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Mon Aug 23 13:07:12 2010">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="c:\Xilinx\11.1\ISE;C:\Xilinx\11.1\EDK"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="C:\Xilinx\11.1\DSP_Tools\nt"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="C:\Xilinx\11.1\EDK"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="C:\Xilinx\11.1\PlanAhead"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Microsoft Windows XP Professional"/>
+        <item stringID="User_EnvOsrelease" value="Service Pack 3  (build 2600)"/>
+      </item>
+      <item stringID="User_EnvHost" value="BEBXLODAVLT1094"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz"/>
+          <item stringID="speed" value="2000 MHz"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="arch" value="Intel(R) Core(TM)2 CPU         T7200  @ 2.00GHz"/>
+          <item stringID="speed" value="2000 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="61"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="4"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="microblaze_v7_20_d"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="AlphaBlendingMultiplier">
+              <item stringID="NGDBUILD_CORE_INFO" type="mult_gen_v11_2" value="AlphaBlendingMultiplier"/>
+              <item c_a_type="1" c_a_width="10" c_b_type="1" c_b_value="10000001" c_b_width="10" c_ccm_imp="0" c_ce_overrides_sclr="0" c_has_ce="0" c_has_sclr="0" c_has_zero_detect="0" c_latency="1" c_mult_type="1" c_optimize_goal="0" c_out_high="19" c_out_low="0" c_round_output="0" c_round_pt="0" component_name="AlphaBlendingMultiplier" stringID="NGDBUILD_CORE_PARAMETERS" value="AlphaBlendingMultiplier"/>
+            </scope>
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="CopperEffect">
+              <item stringID="NGDBUILD_CORE_INFO" type="blk_mem_gen_v3_3" value="CopperEffect"/>
+              <item c_addra_width="5" c_addrb_width="9" c_algorithm="1" c_byte_size="9" c_common_clk="1" c_default_data="0" c_disable_warn_bhv_coll="0" c_disable_warn_bhv_range="0" c_has_ena="0" c_has_enb="0" c_has_injecterr="0" c_has_mem_output_regs_a="0" c_has_mem_output_regs_b="0" c_has_mux_output_regs_a="0" c_has_mux_output_regs_b="0" c_has_regcea="0" c_has_regceb="0" c_has_rsta="0" c_has_rstb="0" c_init_file_name="no_coe_file_loaded" c_inita_val="0" c_initb_val="0" c_load_init_file="0" c_mem_type="1" c_mux_pipeline_stages="0" c_prim_type="1" c_read_depth_a="30" c_read_depth_b="480" c_read_width_a="16" c_read_width_b="1" c_rst_priority_a="CE" c_rst_priority_b="CE" c_rst_type="SYNC" c_rstram_a="0" c_rstram_b="0" c_sim_collision_check="ALL" c_use_byte_wea="0" c_use_byte_web="0" c_use_default_data="0" c_use_ecc="0" c_wea_width="1" c_web_width="1" c_write_depth_a="30" c_write_depth_b="480" c_write_mode_a="READ_FIRST" c_write_mode_b="READ_FIRST" c_write_width_a="16" c_write_width_b="1" component_name="CopperEffect" stringID="NGDBUILD_CORE_PARAMETERS" value="CopperEffect"/>
+            </scope>
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="CopperMemory">
+              <item stringID="NGDBUILD_CORE_INFO" type="blk_mem_gen_v3_3" value="CopperMemory"/>
+              <item c_addra_width="9" c_addrb_width="9" c_algorithm="1" c_byte_size="9" c_common_clk="1" c_default_data="0" c_disable_warn_bhv_coll="0" c_disable_warn_bhv_range="0" c_has_ena="0" c_has_enb="0" c_has_injecterr="0" c_has_mem_output_regs_a="0" c_has_mem_output_regs_b="0" c_has_mux_output_regs_a="0" c_has_mux_output_regs_b="0" c_has_regcea="0" c_has_regceb="0" c_has_rsta="0" c_has_rstb="0" c_init_file_name="no_coe_file_loaded" c_inita_val="0" c_initb_val="0" c_load_init_file="0" c_mem_type="1" c_mux_pipeline_stages="0" c_prim_type="1" c_read_depth_a="480" c_read_depth_b="480" c_read_width_a="16" c_read_width_b="16" c_rst_priority_a="CE" c_rst_priority_b="CE" c_rst_type="SYNC" c_rstram_a="0" c_rstram_b="0" c_sim_collision_check="ALL" c_use_byte_wea="0" c_use_byte_web="0" c_use_default_data="0" c_use_ecc="0" c_wea_width="1" c_web_width="1" c_write_depth_a="480" c_write_depth_b="480" c_write_mode_a="READ_FIRST" c_write_mode_b="READ_FIRST" c_write_width_a="16" c_write_width_b="16" component_name="CopperMemory" stringID="NGDBUILD_CORE_PARAMETERS" value="CopperMemory"/>
+            </scope>
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="microblaze_0">
+              <item stringID="NGDBUILD_CORE_INFO" type="MicroBlaze" value="microblaze_0"/>
+              <item c_area_optimized="0" c_cache_byte_size="128" c_d_lmb="1" c_d_opb="0" c_d_plb="1" c_dcache_always_used="0" c_dcache_baseaddr="0xC4000000" c_dcache_byte_size="256" c_dcache_highaddr="0xC7FFFFFF" c_dcache_line_len="4" c_dcache_use_writeback="0" c_debug_enabled="1" c_div_zero_exception="0" c_dopb_bus_exception="0" c_dplb_bus_exception="0" c_family="spartan3a" c_fpu_exception="0" c_fsl_exception="0" c_fsl_links="0" c_i_lmb="1" c_i_opb="0" c_i_plb="1" c_icache_always_used="0" c_icache_baseaddr="0xC4000000" c_icache_highaddr="0xC7FFFFFF" c_icache_line_len="4" c_ill_opcode_exception="0" c_instance="microblaze_0" c_interconnect="1" c_iopb_bus_exception="0" c_iplb_bus_exception="0" c_mmu_dtlb_size="4" c_mmu_itlb_size="2" c_mmu_tlb_access="3" c_mmu_zones="16" c_number_of_pc_brk="1" c_number_of_rd_addr_brk="0" c_number_of_wr_addr_brk="0" c_opcode_0x0_illegal="1" c_pvr="0" c_unaligned_exceptions="0" c_use_barrel="0" c_use_dcache="1" c_use_div="0" c_use_ext_brk="1" c_use_ext_nm_brk="1" c_use_extended_fsl_instr="0" c_use_fpu="0" c_use_hw_mul="1" c_use_icache="1" c_use_interrupt="1" c_use_mmu="0" c_use_msr_instr="0" c_use_pcmp_instr="0" mb_version="0x0F" stringID="NGDBUILD_CORE_PARAMETERS" value="microblaze_0"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

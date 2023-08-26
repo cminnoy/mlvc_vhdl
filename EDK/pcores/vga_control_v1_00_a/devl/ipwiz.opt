@@ -1,0 +1,12 @@
+-batch 
+-create vga_control 
+-ver 1.00.a 
+-dir "C:\Projects\EDK_Trial_3" 
+-lang vhdl 
+-bus plbv46 s 
+-isc 1 
+-intrn 2 3 
+-reg 8 
+-xps 
+-ise 
+-driver 

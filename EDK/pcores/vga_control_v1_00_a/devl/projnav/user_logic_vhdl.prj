@@ -1,0 +1,5 @@
+vhdl work "C:\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\ipcore_dir\AlphaBlendingMultiplier.vhd"
+vhdl proc_common_v3_00_a "C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\proc_common_v3_00_a\hdl\vhdl\proc_common_pkg.vhd"
+vhdl work "C:\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\ipcore_dir\CopperMemory.vhd"
+vhdl work "C:\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\ipcore_dir\CopperEffect.vhd"
+vhdl vga_control_v1_00_a "C:\EDK_Trial_3\pcores\vga_control_v1_00_a\hdl\vhdl\user_logic.vhd"

@@ -1,0 +1,16 @@
+START:Strategy:1:MapTimingExtraEffort
+REMOTE_PID:4928
+RUNNING:4928:5168:MapTimingExtraEffort:map:vga_control.ngd: -timing -ol high -xe n  -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun1:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun1:backslashvga_control.pcf
+DONE:map:2
+START:Strategy:3:ParHighEffort1
+REMOTE_PID:4240
+RUNNING:4240:5400:ParHighEffort1:map:vga_control.ngd: -cm area  -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun3:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun3:backslashvga_control.pcf
+DONE:map:2
+START:Strategy:5:MapTiming1
+REMOTE_PID:5848
+RUNNING:5848:2508:MapTiming1:map:vga_control.ngd: -timing -ol high  -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun5:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun5:backslashvga_control.pcf
+DONE:map:2
+START:Strategy:7:MapUseIOReg
+REMOTE_PID:1904
+RUNNING:1904:5108:MapUseIOReg:map:vga_control.ngd: -timing -ol high -pr b  -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun7:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun7:backslashvga_control.pcf
+DONE:map:2

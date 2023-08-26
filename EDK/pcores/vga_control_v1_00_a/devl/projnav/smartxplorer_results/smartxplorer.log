@@ -1,0 +1,30 @@
+Release 11.4 SmartXplorer
+Copyright(c) 1995-2009 Xilinx, Inc. All rights reserved.
+"C:\Xilinx\11.1\ISE\bin\nt\smartxplorer.exe" -p xc3s700an-fgg484-4 -b -wd smartxplorer_results vga_control.ngd -host_list hostlistfile.txt -max_runs 7
+
+SmartXplorer Settings: 
+
+designName=C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\vga_control.ngd 
+write_dir=C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\smartxplorer_results 
+host_list=C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\hostlistfile.txt 
+part=xc3s700an-fgg484-4 
+strategy_file=None 
+notify=None 
+source_dir=C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav 
+batch_mode=True 
+run_all_strategies=False 
+list_all_strategies=False 
+remote_command=rsh
+max_runs=7
+multi_threading=off
+
+Starting SmartXplorer...
+See file 'smartxplorer.html' for real-time report.
+
+
+Running SmartXplorer strategies...
+
+
+INFO: No best strategy!
+
+SmartXplorer Done. See file 'smartxplorer.txt' for detailed report.

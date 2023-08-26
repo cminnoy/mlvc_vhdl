@@ -1,0 +1,7 @@
+AR coppermemory coppermemory_a C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperMemory.vhd sub00/vhpl03 1282561317
+EN coppermemory NULL C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperMemory.vhd sub00/vhpl02 1282561316
+EN alphablendingmultiplier NULL C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/AlphaBlendingMultiplier.vhd sub00/vhpl00 1282561314
+AR coppereffect coppereffect_a C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperEffect.vhd sub00/vhpl05 1282561319
+AR alphablendingmultiplier alphablendingmultiplier_a C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/AlphaBlendingMultiplier.vhd sub00/vhpl01 1282561315
+MO AlphaBlendingMultiplier NULL ipcore_dir/AlphaBlendingMultiplier.v vlg38/_alpha_blending_multiplier.bin 1263285442
+EN coppereffect NULL C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperEffect.vhd sub00/vhpl04 1282561318

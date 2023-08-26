@@ -1,0 +1,92 @@
+Using target part "3s700anfgg484-4".
+WARNING:Map:124 - The command line option -t can only be used when running in
+   timing mode (-timing option).  The option will be ignored.
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s700an' is a WebPack part.
+WARNING:Security:42 - Your license support version '2010.04' for WebPack expires
+in 25 days after which you will not qualify for Xilinx software updates or new
+releases.
+----------------------------------------------------------------------
+WARNING:LIT:243 - Logical network VFBC1_Wd_Almost_Full has no load.
+WARNING:LIT:395 - The above warning message is repeated 175 more times for the
+   following (max. 5 shown):
+   VFBC1_Cmd_Almost_Full,
+   PLB_wrPrim,
+   VFBC0_Rd_Almost_Empty,
+   VFBC0_Rd_Empty,
+   PLB_rdBurst
+   To see the details of these warning messages, please use the -detail switch.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   USER_LOGIC_I/viewport0_sy_end_not0001 is sourced by a combinatorial pin. This
+   is not good design practice. Use the CE pin to control the loading of data
+   into the flip-flop.
+ERROR:Pack:2309 - Too many bonded comps of type "IOB" found to fit this device.
+ERROR:Pack:18 - The design is too large for the given device and package. 
+   Please check the Design Summary section to see which resource requirement for
+   your design exceeds the resources available in the device.
+
+   NOTE: An NCD file will still be generated to allow you to examine the mapped
+   design.  This file is intended for evaluation use only, and will not process
+   successfully through PAR.
+
+   This mapped NCD file can be used to evaluate how the design's logic has been
+   mapped into FPGA logic resources.  It can also be used to analyze
+   preliminary, logic-level (pre-route) timing with one of the Xilinx static
+   timing analysis tools (TRCE or Timing Analyzer).
+
+Design Summary:
+Number of errors:      2
+Number of warnings:    4
+Logic Utilization:
+  Total Number Slice Registers:       1,335 out of  11,776   11%
+    Number used as Flip Flops:          864
+    Number used as Latches:             471
+  Number of 4 input LUTs:             1,466 out of  11,776   12%
+Logic Distribution:
+  Number of occupied Slices:          1,336 out of   5,888   22%
+    Number of Slices containing only related logic:   1,336 out of   1,336 100%
+    Number of Slices containing unrelated logic:          0 out of   1,336   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,748 out of  11,776   14%
+    Number used as logic:             1,466
+    Number used as a route-thru:        282
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                445 out of     372  119% (OVERMAPPED)
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of MULT18X18SIOs:                6 out of      20   30%
+
+Average Fanout of Non-Clock Nets:                2.46
+
+Peak Memory Usage:  202 MB
+Total REAL time to MAP completion:  12 secs 
+Total CPU time to MAP completion:   7 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "vga_control_map.mrp" for details.
+Problem encountered during the packing phase.

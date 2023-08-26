@@ -1,0 +1,47 @@
+Release 11.5 ngcbuild L.70 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\11.1\ISE\bin\nt\unwrapped\ngcbuild.exe -p
+xc3s700anfgg484-4 -intstyle silent -uc ddr2_sdram_wrapper.ucf -sd ..
+ddr2_sdram_wrapper.ngc ../ddr2_sdram_wrapper.ngc
+
+Reading NGO file
+"C:/EDK_Trial_3/implementation/ddr2_sdram_wrapper/ddr2_sdram_wrapper.ngc" ...
+
+Applying constraints in "ddr2_sdram_wrapper.ucf" to the design...
+Checking Constraint Associations...
+WARNING:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/wrfifo_reset*" TIG;>
+   [ddr2_sdram_wrapper.ucf(2)]'
+WARNING:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/wrfifo_flush*" TIG;>
+   [ddr2_sdram_wrapper.ucf(3)]'
+WARNING:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/wrfifo_reset*" TIG;>
+   [ddr2_sdram_wrapper.ucf(8)]'
+WARNING:NgdBuild:981 - Could not find any associations for the following
+   constraint:
+       '<Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/wrfifo_flush*" TIG;>
+   [ddr2_sdram_wrapper.ucf(9)]'
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   4
+
+Total memory usage is 89456 kilobytes
+
+Writing NGC file "../ddr2_sdram_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  5 sec
+Total CPU time to NGCBUILD completion:   5 sec
+
+Writing NGCBUILD log file "../ddr2_sdram_wrapper.blc"...

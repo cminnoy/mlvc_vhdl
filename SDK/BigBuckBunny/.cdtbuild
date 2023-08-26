@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="BigBuckBunny.xygwin.mb.exec.1109351072" name="Xilinx MicroBlaze Executable" projectType="xygwin.mb.exec">
+<configuration artifactExtension="elf" artifactName="BigBuckBunny" cleanCommand="rm -rf" description="" id="mb.xygwin.exec.release.52856627" name="Release" parent="mb.xygwin.exec.release">
+<toolChain id="mb.xygwin.exec.release.toolchain.1669651607" name="Release.toolchain" superClass="mb.xygwin.exec.release.toolchain">
+<tool id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.423697531" name="MicroBlaze C Compiler" superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler"/>
+<tool id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.361787246" name="MicroBlaze C++ Compiler" superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.compiler.hw.specific.options.1149475400" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.compiler.hw.specific.options" value="-mno-xl-soft-mul -mcpu=v7.20.d " valueType="string"/>
+<option id="xygwin.mb.compiler.general.include.paths.1877411942" superClass="xygwin.mb.compiler.general.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="C:/EDK_Trial_3/SDK/SDK_Workspace/MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="C:/EDK_Trial_3/SDK/SDK_Workspace/BigBuckBunny/include"/>
+<listOptionValue builtIn="false" value="../../MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../../../../../EDK_Trial_3/SDK/SDK_Workspace/MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../../../../../../EDK_Trial_3/SDK/SDK_Workspace/BigBuckBunny/include"/>
+</option>
+<option id="xygwin.mb.compiler.debugging.level.974753304" superClass="xygwin.mb.compiler.debugging.level" value="xygwin.mb.debugging.level.none" valueType="enumerated"/>
+<option id="xygwin.mb.compiler.general.optimization.level.1118256809" superClass="xygwin.mb.compiler.general.optimization.level" value="xygwin.mb.optimization.level.most" valueType="enumerated"/>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.mbspec.appmode.743058314" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.mbspec.appmode"/>
+</tool>
+<tool id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.268284756" name="MicroBlaze C Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link"/>
+<tool id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1145300893" name="MicroBlaze C++ Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link">
+<option id="xygwin.mb.link.libs.1693387509" superClass="xygwin.mb.link.libs" valueType="libs">
+<listOptionValue builtIn="false" value="stdc++"/>
+</option>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript.880585217" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript" valueType="includePath">
+<listOptionValue builtIn="false" value="../BigBuckBunny.ld"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

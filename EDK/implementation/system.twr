@@ -1,0 +1,945 @@
+--------------------------------------------------------------------------------
+Release 11.5 Trace  (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+trce -ise ../__xps/ise/system.ise -e 3 -xml system.twx system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc3s700an,fgg484,-4 (PRODUCTION 1.41 2010-02-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<2>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.507ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<3>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.293ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<1>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.776ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<0>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.020ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<1>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.802ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<0>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.236ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<2>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.790ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<3>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.730ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<1>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.760ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ConsObjPtr<0>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.730ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<1>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.601ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<0>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.088ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ProdObjPtr<0>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.219ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ProdObjPtr<1>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.568ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ProdObjPtr<0>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.071ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ProdObjPtr<1>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.120ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/rst_dqs_div"         MAXDELAY = 3.007 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.247ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+fifo_0_wr_en<0>"         MAXDELAY = 3.007 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.468ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+fifo_0_wr_en<1>"         MAXDELAY = 3.007 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.906ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<3>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.565ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<2>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.822ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<3>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.014ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_RDDATA_FIFOS[0].GEN_RDDATA_PORT_ENABLE.URdDataFifo/ProdObjPtr<2>"         
+MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.021ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+fifo_1_wr_en<0>"         MAXDELAY = 3.007 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.868ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+fifo_1_wr_en<1>"         MAXDELAY = 3.007 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.448ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ConsObjPtr<0>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.929ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC1_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ConsObjPtr<1>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.784ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ConsObjPtr<0>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.393ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/VFBC2_INST.vfbc/VFBC1_PIM_NGC/UVFBC/
+GEN_CMD_FIFOS[0].UCmdFifo/ConsObjPtr<1>"         MAXDELAY = 2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.004ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<0><0>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.495ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<0><2>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.829ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<0><3>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.200ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<0><1>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.843ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<0><0>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.455ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<0><2>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.590ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<0><3>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.711ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<0><1>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.419ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<1><0>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.549ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<1><2>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.844ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<1><3>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.609ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_0_wr_addr_out<1><1>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.356ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<1><0>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.207ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<1><2>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.817ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<1><3>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.925ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read/fifo_1_wr_addr_out<1><1>"         MAXDELAY = 6.39 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.649ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/dqs_div_rst"   
+      MAXDELAY = 0.46 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.445ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col0/delay5"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.155ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/
+dqs_int_delay_in<1>"         MAXDELAY = 0.58 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.515ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col0/delay3"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.121ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col0/delay4"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.105ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col0/delay1"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.165ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col0/delay2"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.186ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col1/delay5"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.155ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col1/delay3"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.121ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col1/delay4"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.105ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col1/delay1"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.165ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[1]..u_dqs_delay_col1/delay2"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.186ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col0/delay5"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.155ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/
+dqs_int_delay_in<0>"         MAXDELAY = 0.58 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.528ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col0/delay3"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.121ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col0/delay4"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.105ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col0/delay1"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.165ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col0/delay2"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.186ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col1/delay5"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.155ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col1/delay3"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.121ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col1/delay4"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.105ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col1/delay1"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.165ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/gen_dqs[0]..u_dqs_delay_col1/delay2"         MAXDELAY = 
+0.19 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.186ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/.rst_dqs_div_delayed/delay5"         MAXDELAY = 0.2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.074ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/.rst_dqs_div_delayed/delay3"         MAXDELAY = 0.2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.155ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/.rst_dqs_div_delayed/delay4"         MAXDELAY = 0.2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.046ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/.rst_dqs_div_delayed/delay1"         MAXDELAY = 0.2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.044ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/data_path/
+data_read_controller/.rst_dqs_div_delayed/delay2"         MAXDELAY = 0.2 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.105ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/infrastructure/
+cal_top/tap_dly/tap<7>"         MAXDELAY = 0.41 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.398ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/infrastructure/
+cal_top/tap_dly/tap<15>"         MAXDELAY = 0.4 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.398ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_s3_ddr2_phy.mpmc_phy_if_0/infrastructure/
+cal_top/tap_dly/tap<23>"         MAXDELAY = 0.4 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.398ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 50 MHz HIGH 
+50%;
+
+ 4 paths analyzed, 4 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_clock_generator_0_clock_generator_0_Using_DCM1_DCM1_INST_CLKFX_DCM = PERIOD  
+       TIMEGRP         
+"clock_generator_0_clock_generator_0_Using_DCM1_DCM1_INST_CLKFX_DCM"         
+TS_sys_clk_pin * 2.5 HIGH 50%;
+
+ 3 paths analyzed, 3 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.800ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK0_DCM = PERIOD   
+      TIMEGRP         
+"clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK0_DCM"         
+TS_clock_generator_0_clock_generator_0_Using_DCM1_DCM1_INST_CLKFX_DCM         
+HIGH 50%;
+
+ 31635 paths analyzed, 10810 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.962ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK90_DCM = PERIOD  
+       TIMEGRP         
+"clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLK90_DCM"         
+TS_clock_generator_0_clock_generator_0_Using_DCM1_DCM1_INST_CLKFX_DCM         
+PHASE 2 ns HIGH 50%;
+
+ 534 paths analyzed, 438 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.716ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: 
+TS_clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLKDV_DCM = PERIOD  
+       TIMEGRP         
+"clock_generator_0_clock_generator_0_Using_DCM0_DCM0_INST_CLKDV_DCM"         
+TS_clock_generator_0_clock_generator_0_Using_DCM1_DCM1_INST_CLKFX_DCM         / 
+2 HIGH 50%;
+
+ 497263 paths analyzed, 16350 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  15.568ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     20.000ns|      6.000ns|     19.905ns|            0|            0|            4|       529435|
+| TS_clock_generator_0_clock_gen|      8.000ns|      4.800ns|      7.962ns|            0|            0|            3|       529432|
+| erator_0_Using_DCM1_DCM1_INST_|             |             |             |             |             |             |             |
+| CLKFX_DCM                     |             |             |             |             |             |             |             |
+|  TS_clock_generator_0_clock_ge|      8.000ns|      7.962ns|          N/A|            0|            0|        31635|            0|
+|  nerator_0_Using_DCM0_DCM0_INS|             |             |             |             |             |             |             |
+|  T_CLK0_DCM                   |             |             |             |             |             |             |             |
+|  TS_clock_generator_0_clock_ge|      8.000ns|      6.716ns|          N/A|            0|            0|          534|            0|
+|  nerator_0_Using_DCM0_DCM0_INS|             |             |             |             |             |             |             |
+|  T_CLK90_DCM                  |             |             |             |             |             |             |             |
+|  TS_clock_generator_0_clock_ge|     16.000ns|     15.568ns|          N/A|            0|            0|       497263|            0|
+|  nerator_0_Using_DCM0_DCM0_INS|             |             |             |             |             |             |             |
+|  T_CLKDV_DCM                  |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock fpga_0_clk_1_sys_clk_pin
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+fpga_0_clk_1_sys_clk_pin|   15.568|    3.251|    3.747|    5.943|
+------------------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 529439 paths, 76 nets, and 38621 connections
+
+Design statistics:
+   Minimum period:  15.568ns   (Maximum frequency:  64.234MHz)
+   Maximum net delay:   2.455ns
+
+
+Analysis completed Mon Aug 23 13:15:45 2010 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 217 MB
+
+Total REAL time to Trace completion: 22 secs 
+Total CPU time to Trace completion: 22 secs 
+
+
+

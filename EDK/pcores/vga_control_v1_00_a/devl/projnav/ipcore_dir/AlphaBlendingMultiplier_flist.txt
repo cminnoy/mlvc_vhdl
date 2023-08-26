@@ -1,0 +1,17 @@
+# Output products list for <AlphaBlendingMultiplier>
+AlphaBlendingMultiplier.asy
+AlphaBlendingMultiplier.gise
+AlphaBlendingMultiplier.ise
+AlphaBlendingMultiplier.ngc
+AlphaBlendingMultiplier.sym
+AlphaBlendingMultiplier.v
+AlphaBlendingMultiplier.veo
+AlphaBlendingMultiplier.vhd
+AlphaBlendingMultiplier.vho
+AlphaBlendingMultiplier.xco
+AlphaBlendingMultiplier.xise
+AlphaBlendingMultiplier_flist.txt
+AlphaBlendingMultiplier_readme.txt
+AlphaBlendingMultiplier_xdb\tmp\
+AlphaBlendingMultiplier_xmdf.tcl
+_xmsgs\

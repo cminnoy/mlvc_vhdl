@@ -1,0 +1,42 @@
+Release 11.5 - xst L.70 (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/11.1/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Architecture proc_common_pkg of Entity proc_common_pkg is up to date.
+Compiling vhdl file "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/AlphaBlendingMultiplier.vhd" in Library work.
+Architecture alphablendingmultiplier_a of Entity alphablendingmultiplier is up to date.
+Compiling vhdl file "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperMemory.vhd" in Library work.
+Architecture coppermemory_a of Entity coppermemory is up to date.
+Compiling vhdl file "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/CopperEffect.vhd" in Library work.
+Architecture coppereffect_a of Entity coppereffect is up to date.
+Compiling vhdl file "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/hdl/vhdl/user_logic.vhd" in Library vga_control_v1_00_a.
+Entity <user_logic> compiled.
+Entity <user_logic> (Architecture <imp>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.28 secs
+ 
+--> 
+
+Total memory usage is 122496 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,50 @@
+Xilinx Platform Studio (XPS)
+Xilinx EDK 11.5 Build EDK_LS5.70
+
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Generating Block Diagram to Buffer 
+
+Generated Block Diagram SVG
+
+At Local date and time: Mon Aug 23 15:56:25 2010
+ make -f system.make exporttosdk started...
+
+make: Nothing to be done for `exporttosdk'.
+
+
+Done!
+
+At Local date and time: Mon Aug 23 15:56:26 2010
+ xps_sdk.bat -workspace C:\EDK_Trial_3\SDK\SDK_Workspace\ -hwspec C:\EDK_Trial_3\SDK\SDK_Export\hw\system.xml & started...
+
+ 
+
+
+Done!
+
+Writing filter settings....
+
+Done writing filter settings to:
+	C:\EDK_Trial_3\__xps\system.filters
+
+Done writing Tab View settings to:
+	C:\EDK_Trial_3\__xps\system.gui
+
+Xilinx Platform Studio (XPS)
+Xilinx EDK 11.5 Build EDK_LS5.70
+
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+Generating Block Diagram to Buffer 
+
+Generated Block Diagram SVG
+
+Writing filter settings....
+
+Done writing filter settings to:
+	C:\EDK_Trial_3\__xps\system.filters
+
+Done writing Tab View settings to:
+	C:\EDK_Trial_3\__xps\system.gui
+

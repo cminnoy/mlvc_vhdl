@@ -1,0 +1,18 @@
+# Output products list for <CopperEffect>
+CopperEffect.asy
+CopperEffect.gise
+CopperEffect.ise
+CopperEffect.ngc
+CopperEffect.sym
+CopperEffect.v
+CopperEffect.veo
+CopperEffect.vhd
+CopperEffect.vho
+CopperEffect.xco
+CopperEffect.xise
+CopperEffect_flist.txt
+CopperEffect_readme.txt
+CopperEffect_xdb\tmp\
+CopperEffect_xmdf.tcl
+_xmsgs\
+blk_mem_gen_ds512.pdf

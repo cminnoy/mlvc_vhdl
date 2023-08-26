@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="HelloWorld.xygwin.mb.exec.1845110559" name="Xilinx MicroBlaze Executable" projectType="xygwin.mb.exec">
+<configuration artifactExtension="elf" artifactName="VgaDemo" cleanCommand="rm -rf" description="" id="mb.xygwin.exec.debug.1893247474" name="Debug" parent="mb.xygwin.exec.debug">
+<toolChain id="mb.xygwin.exec.debug.toolchain.1762063230" name="Debug.toolchain" superClass="mb.xygwin.exec.debug.toolchain">
+<tool command="mb-gcc" id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.1027766211" name="MicroBlaze C Compiler" superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.c.compiler.hw.specific.options.2143503915" superClass="com.xilinx.mdt.edk.managedbuilder.mb.c.compiler.hw.specific.options" value="-mno-xl-soft-mul -mcpu=v7.20.d " valueType="string"/>
+<option id="xygwin.mb.c.compiler.general.include.paths.1440232002" superClass="xygwin.mb.c.compiler.general.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="C:/EDK_Trial_3/SDK/SDK_Workspace/MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="&quot;C:\EDK_Trial_3\SDK\SDK_Workspace\VgaDemo\include&quot;"/>
+<listOptionValue builtIn="false" value="../../MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../VgaDemo/include"/>
+<listOptionValue builtIn="false" value="C:/EDK_Trial_3/SDK/SDK_Workspace/VgaDemo/include"/>
+</option>
+<option id="xygwin.mb.c.compiler.debugging.level.22311941" superClass="xygwin.mb.c.compiler.debugging.level" value="xygwin.mb.c.debugging.level.default" valueType="enumerated"/>
+<option id="xygwin.mb.c.compiler.general.optimization.level.1087530562" superClass="xygwin.mb.c.compiler.general.optimization.level" value="xygwin.mb.c.optimization.level.none" valueType="enumerated"/>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.166483823" superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode"/>
+</tool>
+<tool id="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.239534408" name="MicroBlaze C++ Compiler" superClass="mb.xygwin.exec.debug.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler">
+<option id="xygwin.mb.compiler.general.include.paths.1345154170" superClass="xygwin.mb.compiler.general.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="../../MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../../HelloWorld/include"/>
+<listOptionValue builtIn="false" value="../include"/>
+</option>
+</tool>
+<tool command="mb-gcc" id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.696892619" name="MicroBlaze C Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link">
+<option id="xygwin.mb.c.link.libs.882064685" superClass="xygwin.mb.c.link.libs" valueType="libs">
+<listOptionValue builtIn="false" value="stdc++"/>
+</option>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.1218148522" superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" valueType="includePath">
+<listOptionValue builtIn="false" value="../VgaDemo.ld"/>
+</option>
+</tool>
+<tool id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.374628935" name="MicroBlaze C++ Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript.1034817501" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript" valueType="includePath">
+<listOptionValue builtIn="false" value="../VgaDemo.ld"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="elf" artifactName="VgaDemo" cleanCommand="rm -rf" description="" id="mb.xygwin.exec.release.1219161977" name="Release" parent="mb.xygwin.exec.release">
+<toolChain id="mb.xygwin.exec.release.toolchain.4541675" name="Release.toolchain" superClass="mb.xygwin.exec.release.toolchain">
+<tool id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler.785457627" name="MicroBlaze C Compiler" superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.c.compiler">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.c.compiler.hw.specific.options.2045372227" superClass="com.xilinx.mdt.edk.managedbuilder.mb.c.compiler.hw.specific.options" value="-mno-xl-soft-mul -mcpu=v7.20.d " valueType="string"/>
+<option id="xygwin.mb.c.compiler.general.include.paths.1271715988" superClass="xygwin.mb.c.compiler.general.include.paths" valueType="includePath">
+<listOptionValue builtIn="false" value="../../MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../include"/>
+<listOptionValue builtIn="false" value="../../../../../../EDK_Trial_3/SDK/SDK_Workspace/MyGameConsole/microblaze_0/include"/>
+<listOptionValue builtIn="false" value="../../../../../../EDK_Trial_3/SDK/SDK_Workspace/VgaDemo/include"/>
+</option>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode.1027827412" superClass="com.xilinx.mdt.edk.managedbuilder.mb.mbspec.appmode"/>
+<option id="xygwin.mb.c.compiler.debugging.level.284608372" superClass="xygwin.mb.c.compiler.debugging.level" value="xygwin.mb.c.debugging.level.none" valueType="enumerated"/>
+<option id="xygwin.mb.c.compiler.general.optimization.level.1337682625" superClass="xygwin.mb.c.compiler.general.optimization.level" value="xygwin.mb.c.optimization.level.most" valueType="enumerated"/>
+<option id="xygwin.mb.c.compiler.optimization.gp.511651131" superClass="xygwin.mb.c.compiler.optimization.gp" value="true" valueType="boolean"/>
+<option id="xygwin.mb.c.preprocessor.def.symbols.468984964" superClass="xygwin.mb.c.preprocessor.def.symbols" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="NDEBUG=1"/>
+</option>
+</tool>
+<tool id="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler.975586911" name="MicroBlaze C++ Compiler" superClass="mb.xygwin.exec.release.com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.compiler">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.mbspec.appmode.1945195097" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.mbspec.appmode"/>
+</tool>
+<tool id="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link.1609731883" name="MicroBlaze C Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.c.link">
+<option id="xygwin.mb.c.link.libs.1768165784" superClass="xygwin.mb.c.link.libs" valueType="libs">
+<listOptionValue builtIn="false" value="stdc++"/>
+</option>
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript.10552728" superClass="com.xilinx.mdt.edk.managedbuilder.mb.linkerscript" valueType="includePath">
+<listOptionValue builtIn="false" value="../VgaDemo.ld"/>
+</option>
+</tool>
+<tool id="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link.1267780133" name="MicroBlaze C++ Linker" superClass="com.xilinx.mdt.edk.build.tool.xygwin.mb.cpp.link">
+<option id="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript.31878887" superClass="com.xilinx.mdt.edk.managedbuilder.mb.cpp.linkerscript" valueType="includePath">
+<listOptionValue builtIn="false" value="../VgaDemo.ld"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

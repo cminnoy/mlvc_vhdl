@@ -1,0 +1,160 @@
+
+<smartXplorerReport>
+    <command>C:\Xilinx\11.1\ISE\bin\nt\smartxplorer.exe -p xc3s700an-fgg484-4 -b -wd smartxplorer_results vga_control.ngd -host_list hostlistfile.txt -max_runs 7
+    </command>
+    <programStatus>Done
+    </programStatus>
+    <programPID>4980
+    </programPID>
+    
+    <strategy name="MapTimingExtraEffort">
+        <strategyData>map  -timing -ol high -xe n ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptimingextraeffort.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run1
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 24s
+        </runTime>
+    </strategy>
+    <strategy name="MapPhysSynthesis">
+        <strategyData>map  -timing -ol high -xe n -register_duplication on -logic_opt on ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapphyssynthesis.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run2
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 30s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort1">
+        <strategyData>map  -cm area ; par  -ol high 
+        </strategyData>
+        <xdsFile>parhigheffort1.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run3
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 18s
+        </runTime>
+    </strategy>
+    <strategy name="ParHighEffort2">
+        <strategyData>map  -cm area -t 2; par  -ol high -t 2
+        </strategyData>
+        <xdsFile>parhigheffort2.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run4
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 23s
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming1">
+        <strategyData>map  -timing -ol high ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptiming1.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run5
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 19s
+        </runTime>
+    </strategy>
+    <strategy name="MapTiming2">
+        <strategyData>map  -timing -ol high -t 9; par  -ol high -t 9
+        </strategyData>
+        <xdsFile>maptiming2.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run6
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 25s
+        </runTime>
+    </strategy>
+    <strategy name="MapUseIOReg">
+        <strategyData>map  -timing -ol high -pr b ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapuseioreg.xds
+        </xdsFile>
+        <host name="BEBXLODAVLT1094">
+            <hostData>Windows_NT, x86 Family 6 Model 15 Stepping 6, GenuineIntel, 2-processor, -1G RAM
+            </hostData>
+        </host>
+        <runIndex>run7
+        </runIndex>
+        <status>Failed Map
+        </status>
+        <logFile>vga_control_sx.log
+        </logFile>
+        <timingScore>None
+        </timingScore>
+        <runTime>0h 0m 19s
+        </runTime>
+    </strategy>
+    <bestStrategy>None
+    </bestStrategy>
+    <envVariables> 
+        <env name="XILINX_DSP"  value="C:\Xilinx\11.1\DSP_Tools\nt"/>
+        <env name="PATH"  value="C:\Xilinx\11.1\ISE\lib\nt;C:\Xilinx\11.1\ISE\bin\nt;C:\Xilinx\11.1\ChipScope\bin\nt;C:\Xilinx\11.1\common\bin\nt;C:\Xilinx\11.1\common\lib\nt;C:\Xilinx\11.1\EDK\bin\nt;C:\Xilinx\11.1\EDK\lib\nt;C:\Xilinx\11.1\PlanAhead\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Intel\Wireless\Bin;"C:\Program Files\Graphviz2.16\Bin";C:\Program Files\GNU\GnuPG\pub;C:\Program Files\Windows Imaging\;C:\Program Files\Belgium Identity Card;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\TortoiseSVN\bin;C:\Sun\SDK\bin;C:\Sun\SDK\jdk\bin;C:\Python25;C:\Python25\DLLs"/>
+        <env name="XILINX_PLANAHEAD"  value="C:\Xilinx\11.1\PlanAhead"/>
+        <env name="XILINX_EDK"  value="C:\Xilinx\11.1\EDK"/>
+        <env name="XILINX"  value="C:\Xilinx\11.1\ISE"/>
+        
+    </envVariables>
+</smartXplorerReport>

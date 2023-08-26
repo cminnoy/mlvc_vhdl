@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\Projects\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\synthesis\vga_control_xst.prj"
+-top vga_control
+-p virtex5
+-ofn "C:\Projects\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\synthesis\vga_control_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib vga_control_v1_00_a

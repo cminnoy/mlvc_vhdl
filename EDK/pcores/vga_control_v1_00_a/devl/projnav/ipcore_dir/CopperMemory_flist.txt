@@ -1,0 +1,18 @@
+# Output products list for <CopperMemory>
+CopperMemory.asy
+CopperMemory.gise
+CopperMemory.ise
+CopperMemory.ngc
+CopperMemory.sym
+CopperMemory.v
+CopperMemory.veo
+CopperMemory.vhd
+CopperMemory.vho
+CopperMemory.xco
+CopperMemory.xise
+CopperMemory_flist.txt
+CopperMemory_readme.txt
+CopperMemory_xdb\tmp\
+CopperMemory_xmdf.tcl
+_xmsgs\
+blk_mem_gen_ds512.pdf

@@ -1,0 +1,120 @@
+Release 11.4 Map L.68 (nt)
+Xilinx Mapping Report File for Design 'vga_control'
+
+Design Information
+------------------
+Command Line   : map -timing -ol high -xe n -o vga_control_map.ncd -intstyle ise
+-ise
+C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\smartxp
+lorer_results\run1\vga_control.ise vga_control.ngd
+C:\Projects\Original\EDK_Trial_3\pcores\vga_control_v1_00_a\devl\projnav\smartxp
+lorer_results\run1\vga_control.pcf 
+Target Device  : xc3s700an
+Target Package : fgg484
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.51.18.1 $
+Mapped Date    : Sun Apr 04 18:42:30 2010
+
+Interim Summary
+---------------
+Logic Utilization:
+  Total Number Slice Registers:       1,335 out of  11,776   11%
+    Number used as Flip Flops:          864
+    Number used as Latches:             471
+  Number of 4 input LUTs:             1,466 out of  11,776   12%
+Logic Distribution:
+    Number of Slices containing only related logic:   1,783 out of   1,783 100%
+    Number of Slices containing unrelated logic:          0 out of   1,783   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,748 out of  11,776   14%
+    Number used as logic:             1,466
+    Number used as a route-thru:        282
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                445 out of     372  119% (OVERMAPPED)
+  Number of BUFGMUXs:                     4 out of      24   16%
+  Number of MULT18X18SIOs:                6 out of      20   30%
+
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   2
+
+Section 1 - Errors
+------------------
+ERROR:Pack:2309 - Too many bonded comps of type "IOB" found to fit this device.
+ERROR:Map:237 - The design is too large to fit the device.  Please check the
+   Design Summary section to see which resource requirement for your design
+   exceeds the resources available in the device. Note that the number of slices
+   reported may not be reflected accurately as their packing might not have been
+   completed.
+
+   NOTE:  An NCD file will still be generated to allow you to examine the mapped
+   design.  This file is intended for evaluation use only, and will not process
+   successfully through PAR.
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your license support version '2010.04' for WebPack expires
+in 25 days after which you will not qualify for Xilinx software updates or new
+releases.
+WARNING:LIT:243 - Logical network VFBC1_Wd_Almost_Full has no load.
+WARNING:LIT:395 - The above warning message is repeated 175 more times for the
+   following (max. 5 shown):
+   VFBC1_Cmd_Almost_Full,
+   PLB_wrPrim,
+   VFBC0_Rd_Almost_Empty,
+   VFBC0_Rd_Empty,
+   PLB_rdBurst
+   To see the details of these warning messages, please use the -detail switch.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc3s700an' is a WebPack part.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   6 block(s) removed
+   8 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+Unused block "USER_LOGIC_I/AlphaBlenderBlue/blk00000001" (ONE) removed.
+Unused block "USER_LOGIC_I/AlphaBlenderBlue/blk00000002" (ZERO) removed.
+Unused block "USER_LOGIC_I/AlphaBlenderGreen/blk00000001" (ONE) removed.
+Unused block "USER_LOGIC_I/AlphaBlenderGreen/blk00000002" (ZERO) removed.
+Unused block "USER_LOGIC_I/AlphaBlenderRed/blk00000001" (ONE) removed.
+Unused block "USER_LOGIC_I/AlphaBlenderRed/blk00000002" (ZERO) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000004
+VCC 		USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000005
+GND 		USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000004
+VCC 		USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000005
+GND 		USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000004
+VCC 		USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000005
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.

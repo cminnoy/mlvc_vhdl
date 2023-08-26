@@ -1,0 +1,142 @@
+//! **************************************************************************
+// Written by: Map L.68 on Sun Apr 04 18:43:13 2010
+//! **************************************************************************
+
+SCHEMATIC START;
+TIMEGRP USER_LOGIC_I/clk_25mhz1 = BEL "USER_LOGIC_I/vert_dsp_30" BEL
+        "USER_LOGIC_I/vert_dsp_29" BEL "USER_LOGIC_I/vert_dsp_28" BEL
+        "USER_LOGIC_I/vert_dsp_27" BEL "USER_LOGIC_I/vert_dsp_26" BEL
+        "USER_LOGIC_I/vert_dsp_25" BEL "USER_LOGIC_I/vert_dsp_24" BEL
+        "USER_LOGIC_I/vert_dsp_23" BEL "USER_LOGIC_I/vert_dsp_22" BEL
+        "USER_LOGIC_I/vert_dsp_21" BEL "USER_LOGIC_I/vert_dsp_20" BEL
+        "USER_LOGIC_I/vert_dsp_19" BEL "USER_LOGIC_I/vert_dsp_18" BEL
+        "USER_LOGIC_I/vert_dsp_17" BEL "USER_LOGIC_I/vert_dsp_16" BEL
+        "USER_LOGIC_I/vert_dsp_15" BEL "USER_LOGIC_I/vert_dsp_14" BEL
+        "USER_LOGIC_I/vert_dsp_13" BEL "USER_LOGIC_I/vert_dsp_12" BEL
+        "USER_LOGIC_I/vert_dsp_11" BEL "USER_LOGIC_I/vert_dsp_10" BEL
+        "USER_LOGIC_I/vert_dsp_9" BEL "USER_LOGIC_I/vert_dsp_8" BEL
+        "USER_LOGIC_I/vert_dsp_7" BEL "USER_LOGIC_I/vert_dsp_6" BEL
+        "USER_LOGIC_I/vert_dsp_5" BEL "USER_LOGIC_I/vert_dsp_4" BEL
+        "USER_LOGIC_I/vert_dsp_3" BEL "USER_LOGIC_I/vert_dsp_2" BEL
+        "USER_LOGIC_I/vert_dsp_1" BEL "USER_LOGIC_I/vert_dsp_0" BEL
+        "USER_LOGIC_I/horz_dsp_30" BEL "USER_LOGIC_I/horz_dsp_29" BEL
+        "USER_LOGIC_I/horz_dsp_28" BEL "USER_LOGIC_I/horz_dsp_27" BEL
+        "USER_LOGIC_I/horz_dsp_26" BEL "USER_LOGIC_I/horz_dsp_25" BEL
+        "USER_LOGIC_I/horz_dsp_24" BEL "USER_LOGIC_I/horz_dsp_23" BEL
+        "USER_LOGIC_I/horz_dsp_22" BEL "USER_LOGIC_I/horz_dsp_21" BEL
+        "USER_LOGIC_I/horz_dsp_20" BEL "USER_LOGIC_I/horz_dsp_19" BEL
+        "USER_LOGIC_I/horz_dsp_18" BEL "USER_LOGIC_I/horz_dsp_17" BEL
+        "USER_LOGIC_I/horz_dsp_16" BEL "USER_LOGIC_I/horz_dsp_15" BEL
+        "USER_LOGIC_I/horz_dsp_14" BEL "USER_LOGIC_I/horz_dsp_13" BEL
+        "USER_LOGIC_I/horz_dsp_12" BEL "USER_LOGIC_I/horz_dsp_11" BEL
+        "USER_LOGIC_I/horz_dsp_10" BEL "USER_LOGIC_I/horz_dsp_9" BEL
+        "USER_LOGIC_I/horz_dsp_8" BEL "USER_LOGIC_I/horz_dsp_7" BEL
+        "USER_LOGIC_I/horz_dsp_6" BEL "USER_LOGIC_I/horz_dsp_5" BEL
+        "USER_LOGIC_I/horz_dsp_4" BEL "USER_LOGIC_I/horz_dsp_3" BEL
+        "USER_LOGIC_I/horz_dsp_2" BEL "USER_LOGIC_I/horz_dsp_1" BEL
+        "USER_LOGIC_I/horz_dsp_0" BEL "USER_LOGIC_I/vert_pxl_0" BEL
+        "USER_LOGIC_I/horz_pxl_0" BEL "USER_LOGIC_I/VFBC1_Rd_Read" BEL
+        "USER_LOGIC_I/VFBC0_Rd_Read" BEL "USER_LOGIC_I/vfbc0_rd_cmd_trigger_0"
+        BEL "USER_LOGIC_I/vfbc1_rd_cmd_trigger_0" BEL "USER_LOGIC_I/VGA_G_3"
+        BEL "USER_LOGIC_I/VGA_G_2" BEL "USER_LOGIC_I/VGA_G_1" BEL
+        "USER_LOGIC_I/VGA_G_0" BEL "USER_LOGIC_I/VGA_B_3" BEL
+        "USER_LOGIC_I/VGA_B_2" BEL "USER_LOGIC_I/VGA_B_1" BEL
+        "USER_LOGIC_I/VGA_B_0" BEL "USER_LOGIC_I/viewport0_green_0" BEL
+        "USER_LOGIC_I/viewport0_green_1" BEL "USER_LOGIC_I/viewport0_green_2"
+        BEL "USER_LOGIC_I/viewport0_green_3" BEL
+        "USER_LOGIC_I/viewport0_green_4" BEL
+        "USER_LOGIC_I/viewport1_transparent" BEL "USER_LOGIC_I/VGA_HSYNC" BEL
+        "USER_LOGIC_I/even_odd_trigger_0" BEL "USER_LOGIC_I/viewport0_red_0"
+        BEL "USER_LOGIC_I/viewport0_red_1" BEL "USER_LOGIC_I/viewport0_red_2"
+        BEL "USER_LOGIC_I/viewport0_red_3" BEL "USER_LOGIC_I/viewport0_red_4"
+        BEL "USER_LOGIC_I/VGA_VSYNC" BEL "USER_LOGIC_I/vblank" BEL
+        "USER_LOGIC_I/viewport0_transparent" BEL
+        "USER_LOGIC_I/viewport1_blue_0" BEL "USER_LOGIC_I/viewport1_blue_1"
+        BEL "USER_LOGIC_I/viewport1_blue_2" BEL
+        "USER_LOGIC_I/viewport1_blue_3" BEL "USER_LOGIC_I/viewport1_blue_4"
+        BEL "USER_LOGIC_I/viewport0_blue_0" BEL
+        "USER_LOGIC_I/viewport0_blue_1" BEL "USER_LOGIC_I/viewport0_blue_2"
+        BEL "USER_LOGIC_I/viewport0_blue_3" BEL
+        "USER_LOGIC_I/viewport0_blue_4" BEL "USER_LOGIC_I/copper_red_0" BEL
+        "USER_LOGIC_I/copper_red_1" BEL "USER_LOGIC_I/copper_red_2" BEL
+        "USER_LOGIC_I/copper_red_3" BEL "USER_LOGIC_I/copper_red_4" BEL
+        "USER_LOGIC_I/viewport1_green_0" BEL "USER_LOGIC_I/viewport1_green_1"
+        BEL "USER_LOGIC_I/viewport1_green_2" BEL
+        "USER_LOGIC_I/viewport1_green_3" BEL "USER_LOGIC_I/viewport1_green_4"
+        BEL "USER_LOGIC_I/viewport1_red_0" BEL "USER_LOGIC_I/viewport1_red_1"
+        BEL "USER_LOGIC_I/viewport1_red_2" BEL "USER_LOGIC_I/viewport1_red_3"
+        BEL "USER_LOGIC_I/viewport1_red_4" BEL
+        "USER_LOGIC_I/copper_transparent" BEL "USER_LOGIC_I/VGA_R_3" BEL
+        "USER_LOGIC_I/VGA_R_2" BEL "USER_LOGIC_I/VGA_R_1" BEL
+        "USER_LOGIC_I/VGA_R_0" BEL "USER_LOGIC_I/clk_25mhz" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000006" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000007" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000008" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000009" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000a" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000b" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000c" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000d" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000e" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000000f" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000010" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000011" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000012" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000013" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000014" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000015" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000016" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000017" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000018" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk00000019" BEL
+        "USER_LOGIC_I/AlphaBlenderBlue/blk00000003/blk0000001a" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000006" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000007" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000008" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000009" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000a" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000b" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000c" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000d" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000e" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000000f" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000010" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000011" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000012" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000013" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000014" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000015" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000016" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000017" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000018" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk00000019" BEL
+        "USER_LOGIC_I/AlphaBlenderGreen/blk00000003/blk0000001a" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000006" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000007" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000008" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000009" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000a" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000b" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000c" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000d" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000e" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000000f" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000010" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000011" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000012" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000013" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000014" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000015" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000016" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000017" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000018" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk00000019" BEL
+        "USER_LOGIC_I/AlphaBlenderRed/blk00000003/blk0000001a" BEL
+        "VFBC0_Rd_Clk" BEL "VFBC1_Rd_Clk";
+TIMEGRP VGA_B = BEL "VGA_B<0>" BEL "VGA_B<1>" BEL "VGA_B<2>" BEL "VGA_B<3>";
+TIMEGRP VGA_G = BEL "VGA_G<0>" BEL "VGA_G<1>" BEL "VGA_G<2>" BEL "VGA_G<3>";
+TIMEGRP VGA_R = BEL "VGA_R<0>" BEL "VGA_R<1>" BEL "VGA_R<2>" BEL "VGA_R<3>";
+TS_USER_LOGIC_I_clk_25mhz1 = PERIOD TIMEGRP "USER_LOGIC_I/clk_25mhz1" 40 ns
+        HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,23 @@
+##############################################################################
+## Filename:          C:\Projects\EDK_Trial_3/drivers/vga_control_v1_00_a/data/vga_control_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Sat Dec 12 15:16:05 2009 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER vga_control
+
+  OPTION supported_peripherals = (vga_control);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+  BEGIN ARRAY interrupt_handler
+    PROPERTY desc = "Interrupt Handler Information";
+    PROPERTY size = 1, permit = none;
+    PARAM name = int_handler, default = VGA_CONTROL_Intr_DefaultHandler, desc = "Name of Interrupt Handler", type = string;
+    PARAM name = int_port, default = IP2INTC_Irpt, desc = "Interrupt pin associated with the interrupt handler", permit = none;
+
+  END ARRAY
+
+END DRIVER

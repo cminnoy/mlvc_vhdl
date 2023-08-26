@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<sdkproject major_version='11' minor_version='1'>
+<processor name='microblaze_0' type='microblaze' />
+</sdkproject>

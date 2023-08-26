@@ -1,0 +1,9 @@
+SETPROJECT "C:/EDK_Trial_3/pcores/vga_control_v1_00_a/devl/projnav/ipcore_dir/"
+SET BusFormat = BusFormatAngleBracketNotRipped
+SET devicefamily = spartan3a
+SET device = xc3s700an
+SET package = fgg484
+SET speedgrade = -4
+SET FlowVendor = Foundation_iSE
+SET VerilogSim = True
+SET VHDLSim = True

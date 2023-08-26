@@ -1,0 +1,4 @@
+AR user_logic imp C:/EDK_Trial_3/pcores/vga_control_v1_00_a/hdl/vhdl/user_logic.vhd sub00/vhpl01 1282561321
+AR vga_control imp C:/EDK_Trial_3/pcores/vga_control_v1_00_a/hdl/vhdl/vga_control.vhd sub00/vhpl03 1282510342
+EN user_logic NULL C:/EDK_Trial_3/pcores/vga_control_v1_00_a/hdl/vhdl/user_logic.vhd sub00/vhpl00 1282561320
+EN vga_control NULL C:/EDK_Trial_3/pcores/vga_control_v1_00_a/hdl/vhdl/vga_control.vhd sub00/vhpl02 1282510341

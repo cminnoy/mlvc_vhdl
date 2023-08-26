@@ -1,0 +1,14 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc3s700anfgg484-4
+-top system
+-ifmt MIXED
+-ifn system_xst.prj
+-ofn ../implementation/system.ngc
+-hierarchy_separator /
+-iobuf YES
+-max_fanout 10000
+-sd {../implementation}
+-vlgincdir {"C:\EDK_Trial_3\pcores\" "C:\Xilinx\11.1\EDK\hw\XilinxProcessorIPLib\pcores\" }

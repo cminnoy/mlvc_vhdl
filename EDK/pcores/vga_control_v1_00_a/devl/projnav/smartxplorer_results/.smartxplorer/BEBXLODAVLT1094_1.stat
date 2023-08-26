@@ -1,0 +1,12 @@
+START:Strategy:2:MapPhysSynthesis
+REMOTE_PID:600
+RUNNING:600:5740:MapPhysSynthesis:map:vga_control.ngd: -timing -ol high -xe n -register_duplication on -logic_opt on  -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun2:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun2:backslashvga_control.pcf
+DONE:map:2
+START:Strategy:4:ParHighEffort2
+REMOTE_PID:4712
+RUNNING:4712:5312:ParHighEffort2:map:vga_control.ngd: -cm area -t 2 -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun4:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun4:backslashvga_control.pcf
+DONE:map:2
+START:Strategy:6:MapTiming2
+REMOTE_PID:5072
+RUNNING:5072:5040:MapTiming2:map:vga_control.ngd: -timing -ol high -t 9 -o vga_control_map.ncd  -intstyle ise -ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun6:backslashvga_control.ise C:colon:backslashProjects:backslashOriginal:backslashEDK_Trial_3:backslashpcores:backslashvga_control_v1_00_a:backslashdevl:backslashprojnav:backslashsmartxplorer_results:backslashrun6:backslashvga_control.pcf
+DONE:map:2

@@ -1,0 +1,12 @@
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/cmd_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/wrfifo_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/wrfifo_flush*" TIG;
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/rdfifo_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/UVFBC/rdfifo_flush*" TIG;
+Net "*DDR2_SDRAM/VFBC1_INST.vfbc/*/npi_init_done*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/cmd_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/wrfifo_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/wrfifo_flush*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/rdfifo_reset*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/UVFBC/rdfifo_flush*" TIG;
+Net "*DDR2_SDRAM/VFBC2_INST.vfbc/*/npi_init_done*" TIG;
