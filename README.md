@@ -19,6 +19,8 @@ Notes:
   - uses the Microblaze softcore as main CPU
 
 Paths of interest:
-EDK\pcores\vga_control_v1_00_a\hdl\vhdl
-EDK\hdl
-SDK
+- EDK\pcores\vga_control_v1_00_a\hdl\vhdl
+- EDK\hdl
+- SDK
+
+For the core logic of the VGA controller see EDK\pcores\vga_control_v1_00_a\hdl\vhdl\user_logic.vhd.
