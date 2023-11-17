@@ -24,6 +24,7 @@ Paths of interest:
 - SDK
 
 For the architectural logic of the VGA controller see EDK\pcores\vga_control_v1_00_a\hdl\vhdl\vga_control.vhd
+
 For the core logic of the VGA controller see EDK\pcores\vga_control_v1_00_a\hdl\vhdl\user_logic.vhd
 The logic is designed to run at 25Mhz.
 
